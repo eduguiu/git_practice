@@ -6,7 +6,8 @@
  | g2.2xlarge | 01_Pets| Resnet50 | 32 | 19m | 0.10 | 27m | 0.12 | 0.32 | |
  | g2.8xlarge | 01_Pets| Resnet34 | 64 | 8m | 0.12 | -- | -- | 2.9 | |
  | g2.8xlarge | 01_Pets| Resnet34 | 128 | 7m | 0.10 | 13m | 0.12 | 2.9 | |
- | g2.8xlarge | 01_Pets| Resnet50 | 64 | 10m | 0.08 | 21m | 0.08 | 2.9 | |
+ | g2.8xlarge | 01_Pets| Resnet50 | 64 | 10m | 0.08 | 27m | 0.37 | 2.9 | |
+ | m5a.8xlarge | 01_Pets| Resnet34 | 64 | 8m | 0.12 | -- | -- | 2.9 | |
 
 
 
