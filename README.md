@@ -5,6 +5,7 @@ Start with a Ubuntu 18.04 LTS image
 Install Anaconda3
 - follow instruction found at
   https://docs.anaconda.com/anaconda/install/linux/
+  
   Download the file (found at 
   $ wget https://repo.anaconda.com/archive/Anaconda3-2019.07-Linux-x86_64.sh 
 
@@ -12,8 +13,10 @@ Install Anaconda3
 Install the file 
   Install the downloaded file
   $ bash Anaconda3-2019.07-Linux-x86_64.sh
+  
   Add the path to the bashrc file 
   $ export PATH=~/anaconda3/bin:$PATH
+  
   Check that now conda is in the PATH
   $ conda --version 
 
@@ -35,6 +38,8 @@ Clone FastAI course V3 github project
   $ tools/run-after-git-clone
 
 Install dependencies
+
   $ conda install jupyter nb_conda nb_conda_kernels ipykernel
+  
   $ conda install -c fastai fastai
   
