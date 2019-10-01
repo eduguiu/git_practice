@@ -7,7 +7,10 @@
  | g2.8xlarge | 01_Pets| Resnet34 | 64 | 8m | 0.12 | -- | -- | 2.9 | |
  | g2.8xlarge | 01_Pets| Resnet34 | 128 | 7m | 0.10 | 13m | 0.12 | 2.9 | |
  | g2.8xlarge | 01_Pets| Resnet50 | 64 | 10m | 0.08 | 27m | 0.37 | 2.9 | |
- | m5a.8xlarge | 01_Pets| Resnet34 | 64 | 8m | 0.12 | -- | -- | 2.9 | |
+ | m5a.8xlarge | 01_Pets| Resnet34 | 256 | 5m | 0.13 | 8m | 0.08 | 1.38 | |
+ | m5a.8xlarge | 01_Pets| Resnet50 | 256 |  | 0.13 | 15m | 0.0 | 1.38 | |
+ | p2.xlarge | 01_Pets| Resnet34 | 64 | 17m | 0.13 | 8m | 0.08 | 7.2 | |
+ | p2.xlarge | 01_Pets| Resnet50 | 32 |  | 0.13 | -- | -- | 7.2 | |
 
 
 
@@ -31,7 +34,6 @@
  | p2.8xlarge | TESLA K80 | 96 | 3.7 | 488 | 32 | 7.20 | 01_Pets | -- |
  | p3.2xlarge | TESLA V100 | 16 | 7.0 | 61 | 8 | 3.6 | 01_Pets | -- |
  | p3.8xlarge | TESLA V100x4 | 64 | 7.0 | 244 | 32 | 12.24 | 01_Pets | -- |
- m5a.8xlarge
  
  - source: https://www.ec2instances.info/?filter=p3&region=us-west-2
 
