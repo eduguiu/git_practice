@@ -17,10 +17,13 @@
 
 
 
- | Instance  | Memory | vCPUs | Cost($/hour) | NtBook | Time | 
- | --- | --- | --- | --- | --- | --- |
+ | Instance  | GPU | CUDA | Memory | vCPUs | Cost($/hour) | NtBook | Time | 
+ | --- | --- | --- | --- | --- | --- | --- | --- |
  | g2.2xlarge | 15 | 8 | 0.08 | 01_Pets | 2hores |
  | g2.8xlarge | 60 | 32 | 2.90 | 01_Pets | 2hores |
-
-
-
+ | g3.8xlarge | 60 | 32 | 2.90 | 01_Pets | 2hores |
+ | g2.8xlarge | 60 | 32 | 2.90 | 01_Pets | 2hores |
+ | g2.8xlarge | 60 | 32 | 2.90 | 01_Pets | 2hores |
+ | g2.8xlarge | 60 | 32 | 2.90 | 01_Pets | 2hores |
+ | g2.8xlarge | 60 | 32 | 2.90 | 01_Pets | 2hores |
+ | g2.8xlarge | 60 | 32 | 2.90 | 01_Pets | 2hores |
