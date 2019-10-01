@@ -1,4 +1,4 @@
-# git_practice
+# DL AMI CREATION
 ## Create an Image for DL with FastAI project
 
 * Start with a Ubuntu 18.04 LTS image
