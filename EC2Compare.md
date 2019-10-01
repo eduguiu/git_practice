@@ -6,6 +6,7 @@
  | g2.2xlarge | 01_Pets| Resnet50 | 32 | 19m | 0.10 | 27m | 0.12 | 0.32 | |
  | g2.8xlarge | 01_Pets| Resnet34 | 64 | 8m | 0.12 | -- | -- | 2.9 | |
  | g2.8xlarge | 01_Pets| Resnet34 | 128 | 7m | 0.10 | 13m | 0.12 | 2.9 | |
+ | g2.8xlarge | 01_Pets| Resnet50 | 64 | 10m | 0.08 | 21m | 0.08 | 2.9 | |
 
 
 
@@ -17,9 +18,9 @@
 
 
 
- | Instance  | GPU | CUDA | Memory | vCPUs | Cost($/hour) | NtBook | Time | 
- | --- | --- | --- | --- | --- | --- | --- | --- |
- | g2.2xlarge | 15 | 8 | 0.08 | 01_Pets | 2hores |
+ | Instance  | GPU | GPU_mem | CUDA | Memory | vCPUs | Cost($/hour) | NtBook | Time | 
+ | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+ | g2.2xlarge | K530 | 4 | 3.0| 15 | 8 | 0.08 | 01_Pets | 2hores |
  | g2.8xlarge | 60 | 32 | 2.90 | 01_Pets | 2hores |
  | g3.8xlarge | 60 | 32 | 2.90 | 01_Pets | 2hores |
  | g2.8xlarge | 60 | 32 | 2.90 | 01_Pets | 2hores |
@@ -27,3 +28,7 @@
  | g2.8xlarge | 60 | 32 | 2.90 | 01_Pets | 2hores |
  | g2.8xlarge | 60 | 32 | 2.90 | 01_Pets | 2hores |
  | g2.8xlarge | 60 | 32 | 2.90 | 01_Pets | 2hores |
+
+
+
+https://mc.ai/setup-tensorflow-gpu-with-aws-ec2-on-ubuntu-16-04-in-10-minutes/
