@@ -1,8 +1,8 @@
 # Table to compare results. 
 
-Instance | Time (frozen) | First Error rate  |  BS  | Time (unfroz) | First Error rate  
--------- | ------------- | ----------------- | ---- | ------------- | ----------------
-g2.2xlarge | 19min | 0.1 | 64 | 25min | 0.8
+| Instance | Time (frozen) | First Error rate  |  BS  | Time (unfroz) | First Error rate  
+| -------- | ------------- | ----------------- | ---- | ------------- | ----------------
+| g2.2xlarge | 19min | 0.1 | 64 | 25min | 0.8
 
 
 
