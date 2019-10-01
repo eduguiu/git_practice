@@ -56,9 +56,6 @@
     $ conda install -c fastai fastai
 
 ### Install NVIDIA Drivers
- * follow instructions at  https://linuxconfig.org/how-to-install-the-nvidia-drivers-on-ubuntu-18-04-bionic-beaver-linux
- 
-    $ ubuntu-drivers devices
-    
-    $ sudo ubuntu-drivers autoinstall
-    
+ * follow instructions at https://medium.com/better-programming/install-tensorflow-1-13-on-ubuntu-18-04-with-gpu-support-239b36d29070
+  * Interesting since it first purges the system and then builds from scratch (kernel 4.19 change might be overkill)
+  
