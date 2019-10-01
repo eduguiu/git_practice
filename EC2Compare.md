@@ -22,12 +22,16 @@
  | --- | --- | --- | --- | --- | --- | --- | --- | --- |
  | g2.2xlarge | GRID K530 | 4 | 3.0| 15 | 8 | 0.08 | 01_Pets | 2hores |
  | g2.8xlarge | GRID K520 | 32 | 3.0| 60 | 32 | 2.90 | 01_Pets | 2hores |
+ | m5a.8xlarge | -  | - | - | 128 | 32 | 1.38 | 01_Pets | -- |
+ | m5a.12xlarge | -  | - | - | 192 | 48 | 2.1 | 01_Pets | -- |
  | g3.4xlarge | TESLA M60 | 8 | 5.2| 122 | 16 | 1.14 | 01_Pets | -- |
  | g3.8xlarge | TESLA M60 x2 | 16 | 5.2 | 244 | 32 | 2.28 | 01_Pets | -- |
  | p2.xlarge | TESLA K80 | 12 | 3.7| 61 | 4 | 0.90 | 01_Pets |-- |
  | p2.8xlarge | TESLA K80 | 96 | 3.7 | 488 | 32 | 7.20 | 01_Pets | -- |
  | p3.2xlarge | TESLA V100 | 16 | 7.0 | 61 | 8 | 3.6 | 01_Pets | -- |
  | p3.8xlarge | TESLA V100x4 | 64 | 7.0 | 244 | 32 | 12.24 | 01_Pets | -- |
+ m5a.8xlarge
+ 
  - source: https://www.ec2instances.info/?filter=p3&region=us-west-2
 
 
