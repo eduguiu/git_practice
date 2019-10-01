@@ -54,3 +54,10 @@
     $ conda install jupyter nb_conda nb_conda_kernels ipykernel
   
     $ conda install -c fastai fastai
+
+### Install NVIDIA Drivers
+ * follow instructions at  https://linuxconfig.org/how-to-install-the-nvidia-drivers-on-ubuntu-18-04-bionic-beaver-linux
+    $ ubuntu-drivers devices
+    
+    $ sudo ubuntu-drivers autoinstall
+    
