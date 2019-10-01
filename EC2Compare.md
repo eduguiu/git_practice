@@ -7,10 +7,10 @@
  | g2.8xlarge | Resnet34 | 64 | 8m | 0.12 | -- | -- | 2.9 | |
  | g2.8xlarge | Resnet34 | 128 | 7m | 0.10 | 13m | 0.12 | 2.9 | |
  | g2.8xlarge | Resnet50 | 64 | 10m | 0.08 | 27m | 0.37 | 2.9 | |
- | m5a.8xlarge | Resnet34 | 256 | 5m | 0.13 | 8m | 0.08 | 1.38 | |
- | m5a.8xlarge | Resnet50 | 256 |  | 0.13 | 15m | 0.0 | 1.38 | |
- | p2.xlarge | Resnet34 | 64 | 17m | 0.13 | 8m | 0.08 | 7.2 | |
- | p2.xlarge | Resnet50 | 32 |  | 0.13 | -- | -- | 7.2 | |
+ | m5a.8xlarge | Resnet34 | 256 | 5m | 0.13 | 8m | 0.08 | 1.38 | 3hores|
+ | m5a.8xlarge | Resnet50 | 256 | 20m | 0.8 | 25m | 0.36 | 1.38 | " |
+ | p2.xlarge | Resnet34 | 64 | 18m | 0.10 | -- | -- | 7.2 | |
+ | p2.xlarge | Resnet50 | 32 |  | -- | -- | -- | 7.2 | |
 
 
 
