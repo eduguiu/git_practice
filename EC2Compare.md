@@ -1,16 +1,16 @@
-# Table to compare results. 
+# Table to compare results (NB: 01_Pets). 
 
- | Instance  | NB | Model |  BS | Time(frozen) | ErrRate.15 | Time(Unfrz) | ErrRate.27 | Cost($/hour) | Total | 
- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
- | g2.2xlarge | 01_Pets| Resnet34 | 64 | 19m | 0.10 | 27m | 0.08 | 0.8 | |
- | g2.2xlarge | 01_Pets| Resnet50 | 32 | 19m | 0.10 | 27m | 0.12 | 0.32 | |
- | g2.8xlarge | 01_Pets| Resnet34 | 64 | 8m | 0.12 | -- | -- | 2.9 | |
- | g2.8xlarge | 01_Pets| Resnet34 | 128 | 7m | 0.10 | 13m | 0.12 | 2.9 | |
- | g2.8xlarge | 01_Pets| Resnet50 | 64 | 10m | 0.08 | 27m | 0.37 | 2.9 | |
- | m5a.8xlarge | 01_Pets| Resnet34 | 256 | 5m | 0.13 | 8m | 0.08 | 1.38 | |
- | m5a.8xlarge | 01_Pets| Resnet50 | 256 |  | 0.13 | 15m | 0.0 | 1.38 | |
- | p2.xlarge | 01_Pets| Resnet34 | 64 | 17m | 0.13 | 8m | 0.08 | 7.2 | |
- | p2.xlarge | 01_Pets| Resnet50 | 32 |  | 0.13 | -- | -- | 7.2 | |
+ | Instance  | Model |  BS | Time(frozen) | ErrRate.15 | Time(Unfrz) | ErrRate.27 | Cost($/hour) | Total | 
+ | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+ | g2.2xlarge | Resnet34 | 64 | 19m | 0.10 | 27m | 0.08 | 0.8 | |
+ | g2.2xlarge | Resnet50 | 32 | 19m | 0.10 | 27m | 0.12 | 0.32 | |
+ | g2.8xlarge | Resnet34 | 64 | 8m | 0.12 | -- | -- | 2.9 | |
+ | g2.8xlarge | Resnet34 | 128 | 7m | 0.10 | 13m | 0.12 | 2.9 | |
+ | g2.8xlarge | Resnet50 | 64 | 10m | 0.08 | 27m | 0.37 | 2.9 | |
+ | m5a.8xlarge | Resnet34 | 256 | 5m | 0.13 | 8m | 0.08 | 1.38 | |
+ | m5a.8xlarge | Resnet50 | 256 |  | 0.13 | 15m | 0.0 | 1.38 | |
+ | p2.xlarge | Resnet34 | 64 | 17m | 0.13 | 8m | 0.08 | 7.2 | |
+ | p2.xlarge | Resnet50 | 32 |  | 0.13 | -- | -- | 7.2 | |
 
 
 
