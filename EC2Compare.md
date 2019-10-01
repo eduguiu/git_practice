@@ -1,8 +1,8 @@
 # Table to compare results. 
 
- | Instance     | Time(frozen) | FirstErrorrate | BS | Time(unfroz) | FirstErrorRate |
- | --- | --- | --- | --- | --- | --- | 
- | g2.2xlarge   | 19min | 0.1 | 64 | 25min | 0.8 |
+ | Instance  | Model |  BS | Time(frozen) | FirstErrorrate | Time(unfroz) | FirstErrorRate | Cost($/hour) |
+ | --- | --- | --- | --- | --- | --- | --- | --- | 
+ | g2.2xlarge   | Resnet34 | 64 |  19min | 0.1 |  27min | 0.11 | 0.32 |
 
 
 
