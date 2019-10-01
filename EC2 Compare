@@ -1,7 +1,7 @@
 # Table to compare results. 
 
 Instance | Time | First Error rate  |  BS 
------------- | ------------- | ------------- | -------------
+-------- | ---- | ----------------- | ---
 g2.2xlarge | 19min | 0.1 | 64 
 g2.2xlarge | 19min | 0.1 | 64 
 
