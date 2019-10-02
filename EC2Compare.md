@@ -1,4 +1,4 @@
-# Table to compare results (NB: 01_Pets). 
+# Table to compare results (NB: 01_Pets). 2 epochs / training.
 
  | Instance  | Model |  BS | Time(frozen) | ErrRate.15 | Time(Unfrz) | ErrRate.27 | Cost($/hour) | Total | 
  | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -11,7 +11,9 @@
  | m5a.8xlarge | Resnet50 | 256 | 20m | 0.8 | 25m | 0.36 | 1.38 | " |
  | p2.xlarge | Resnet34 | 64 | 18m | 0.10 | 26m | 0.08 | 7.2 | |
  | p2.xlarge | Resnet50 | 32 |  | -- | -- | -- | 7.2 | |
-
+ | c5.9xlarge | Resnet34 | 64 | 2m | 0.10 | 3m | 0.07 | 1.53 | 1/4 h |
+ | c5.9xlarge | Resnet50 | 64 | 10 | 0.09 | 13m | 0.06 | 1.53 | 1 h  
+ | c5.9xlarge | Resnet34 | 256 | 2m | 0.10 | 3m | 0.08 | 1.53 | 1/4 h |
 
 
 
@@ -28,14 +30,14 @@ This table states Instances that can be used for our FastAI training. We would f
 NB: using a G2 instance or P2 instance in the DL1 part of the course won't be useful since they are limited in terms of CPU, but they are priced for a GPU that DL1 will never use. 
 
 
-
-
  | Instance  | GPU | GPU_mem | CUDA | Memory | vCPUs | Cost($/hour) | NtBook | Time | 
  | --- | --- | --- | --- | --- | --- | --- | --- | --- |
  | g2.2xlarge | GRID K530 | 4 | 3.0| 15 | 8 | 0.65 | 01_Pets | 2hores |
  | g2.8xlarge | GRID K520 | 32 | 3.0| 60 | 32 | 2.90 | 01_Pets | 2hores |
  | m5a.8xlarge | -  | - | - | 128 | 32 | 1.38 | 01_Pets | -- |
  | m5a.12xlarge | -  | - | - | 192 | 48 | 2.1 | 01_Pets | -- |
+ | c5.9xlarge | -  | - | - | 72 | 36 | 1.53 | 01_Pets | -- |
+ | c5.12xlarge | -  | - | - | 96 | 48 | 2.04 | 01_Pets | -- |
  | g3.4xlarge | TESLA M60 | 8 | 5.2| 122 | 16 | 1.14 | 01_Pets | -- |
  | g3.8xlarge | TESLA M60 x2 | 16 | 5.2 | 244 | 32 | 2.28 | 01_Pets | -- |
  | p2.xlarge | TESLA K80 | 12 | 3.7| 61 | 4 | 0.90 | 01_Pets |-- |
