@@ -21,10 +21,18 @@
 
 
 
+This table states Instances that can be used for our FastAI training. We would favor Large CPU'd instances for DL1, whereas for the DL2 (usage of CUDA) we will favor GPU based instances. Therefore:
+- for DL1, we will choose something north of M5 instances (>32 CPUs) with ca. $1/hour
+- for DL2, we will choose something north of P2.xlarge instances (>32 CPUs) with ca. $1/hour
+
+NB: using a G2 instance or P2 instance in the DL1 part of the course won't be useful since they are limited in terms of CPU, but they are priced for a GPU that DL1 will never use. 
+
+
+
 
  | Instance  | GPU | GPU_mem | CUDA | Memory | vCPUs | Cost($/hour) | NtBook | Time | 
  | --- | --- | --- | --- | --- | --- | --- | --- | --- |
- | g2.2xlarge | GRID K530 | 4 | 3.0| 15 | 8 | 0.08 | 01_Pets | 2hores |
+ | g2.2xlarge | GRID K530 | 4 | 3.0| 15 | 8 | 0.65 | 01_Pets | 2hores |
  | g2.8xlarge | GRID K520 | 32 | 3.0| 60 | 32 | 2.90 | 01_Pets | 2hores |
  | m5a.8xlarge | -  | - | - | 128 | 32 | 1.38 | 01_Pets | -- |
  | m5a.12xlarge | -  | - | - | 192 | 48 | 2.1 | 01_Pets | -- |
